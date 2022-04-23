@@ -1,0 +1,166 @@
+
+/* Крок 1. аналізуємо щрифти, під'єднати шрифти з https: //fonts.google.com/, внести лінк в хед*/
+
+/*обнулити всі непотрібні автоматичні властивості */
+:root {
+    --accent-color: #2196F3;
+    --main-color: #212121;
+    --mail-font: 'Roboto', sans-serif;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+body {
+    font-family: var(--mail-font);
+}
+
+/* ----------------- КОМПОНЕНТ --------------- */
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+span.logo-text-left {
+color: var(--accent-color);
+}
+
+.logo-theme-light{
+    color: var(--main-color);
+}
+
+.logo-theme-dark {
+    color:var(--main-color); 
+}
+
+.subtitle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+}
+
+/* ----------------- ХЕДЕР --------------- */
+
+.menu-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-color);
+}
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--accent-color);
+}
+ 
+
+.header-mail, .header-tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.header-mail:hover, 
+.header-mail:focus 
+{
+    color: var(--accent-color);
+}
+
+.header-tel:hover,
+.header-tel:focus
+{
+    color: var(--accent-color);
+}
+
+/* ----------------- Секція Hero --------------- */
+
+.main-title {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+/* color: #FFFFFF; */
+}
+
+.servise-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+
+/* ----------------- /Секція Hero --------------- */
+ 
+/* ----------------- Секція Переваги --------------- */
+.advantages-list-quantity {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+color: var(--main-color);
+}
+
+.advantages-list-description {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+/* ----------------- /Секція Переваги --------------- */
+
+/* ----------------- Секція Чим займаємось --------------- */
+
+/* ----------------- /Секція Чим займаємось --------------- */
+
+/* ----------------- Секція Команда --------------- */
+
+
+.team-list-name {
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em; 
+    font-weight: 500;
+    color: var(--main-color);
+}
+.team-list-profession{
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    font-weight: 400;
+    color: #757575;
+}
+/* ----------------- /Секція Команда --------------- */
+
+/* ----------------- Футер --------------- */
+.postal-address-link,
+.footer-mail,
+.footer-tel {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+
+/*color: rgba(255, 255, 255, 0.6);*/
+}
+
+/* ----------------- /Футер --------------- */

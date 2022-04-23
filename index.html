@@ -4,143 +4,151 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homework1</title>
+    <title>Homework2</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    
+    <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
 <body>
-<header>
+<header class="page-header">
     <!-- Навігація  -->
-    <nav>
-        <a href="https://annabukina.github.io/goit-markup-hw-01/">
-            <span style="color:blue">Web</span>Studio
+    <nav class="navigation">
+        <a class="logo logo-theme-light link" href="https://annabukina.github.io/goit-markup-hw-01/">
+            <span class="logo-text-left">Web</span>Studio
         </a>
 
-        <ul>
-            <li>
-                <a href="#about">Студия</a>
+        <ul class="menu list">
+            <li class="menu-item">
+                <a class="menu-link link" href="#about">Студия</a>
             </li>
-            <li>
-                <a href="#services">Портфолио</a>
+            <li class="menu-item">
+                <a class="menu-link link" href="./portfolio.html" />Портфолио</a>
             </li>
-            <li>
-                <a href="#contacts">Контакты</a>
+            <li class="menu-item">
+                <a class="menu-link link" href="#contacts">Контакты</a>
             </li>
         </ul>
     </nav>
-<ul>
+<ul class="list">
     <li>
         <!-- Посилання на адресу електронної пошти  -->
-        <a href="mailto:example@mail.ru">info@example.com</a>
+        <a class="header-mail link" href="mailto:example@mail.ru">info@example.com</a>
     </li>
 
     <li>
         <!-- Посилання на телефонний номер -->
-        <a href="tel:+380961111111">+38 096 111 11 11</a>
+        <a class="header-tel link" href="tel:+380961111111">+38 096 111 11 11</a>
     </li>
 </ul>
 
 </header>
 
 <main>
-    <section>
-            <h1>Эффективные решения для вашего бизнеса</h1>
-            <button type="button">Заказать услугу</button>
+    <section class="hero">
+            <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
+            <button class="servise-button" type="button">Заказать услугу</button>
     </section>
 
 
 <!-- секція з перевагами -->
     <section>
-        <ul>
+        <h2 class="subtitle">Преимущества</h2>
+        <ul class="list">
             <li>
-                <h3>Внимание к деталям</h3>
-                <p>
+                <h3 class="advantages-list-quantity list">Внимание к деталям</h3>
+                <p class="advantages-list-description">
                     Идейные соображения, а также начало повседневной работы по формированию позиции.
                 </p>
             </li>
             <li>
-                <h3>Пунктуальность</h3>
-                <p>
+                <h3 class="advantages-list-quantity list">Пунктуальность</h3>
+                <p class="advantages-list-description">
                     Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
                 </p>
             </li>
             <li>
-                <h3>Планирование</h3>
-                <p>
+                <h3 class="advantages-list-quantity list">Планирование</h3>
+                <p class="advantages-list-description">
                     Равным образом консультация с широким активом в значительной степени обуславливает.
                 </p>
             </li>
             <li>
-                <h3>Современные технологии</h3>
-                <p>
+                <h3 class="advantages-list-quantity list">Современные технологии</h3>
+                <p class="advantages-list-description">
                     Значимость этих проблем настолько очевидна, что реализация плановых заданий.
                 </p>
             </li>
         </ul>
     </section>
 <!-- секція Чим займаємось -->
-<section>
-    <h2>Чем мы занимаемся</h2>
-        <ul>
-            <li>
-                <img src="./images/work/work1.jpg" alt="разработка алгоритмов программного обеспечения" width="370"
+<section class="services">
+    <h2 class="subtitle">Чем мы занимаемся</h2>
+        <ul class="services-list list">
+            <li class="services-list-item">
+                <img class="services-list-img" src="./images/work/work1.jpg" alt="разработка алгоритмов программного обеспечения" width="370"
                     height="294" />
             </li>
 
-            <li>
-                <img src="./images/work/work2.jpg" alt="разработка макета программного обеспечения" width="370" height="294" />
+            <li class="services-list-item">
+                <img class="services-list-img" src="./images/work/work2.jpg" alt="разработка макета программного обеспечения" width="370" height="294" />
             </li>
 
-            <li>
-                <img src="./images/work/work3.jpg" alt="разработка дизайна программного обеспечения" width="370" height="294" />
+            <li class="services-list-item">
+                <img class="services-list-img" src="./images/work/work3.jpg" alt="разработка дизайна программного обеспечения" width="370" height="294" />
             </li>
         </ul>
 </section>
 
 <!-- секція Команда -->
 <section>
-    <h2>Наша команда</h2>
-        <ul>
-            <li>
-                <img 
+    <h2 class="subtitle">Наша команда</h2>
+        <ul class="team-list list">
+            <li class="team-list-item">
+                <img class="team-list-img"
                     src="./images/members/member1.jpg" alt="на фото Игорь Демьяненко" 
                     width="270"
                     height="260" 
                 />
-                <h3>Игорь Демьяненко</h3>
-                <p lang="en">Product Designer</p>
+                <h3 class="team-list-name">Игорь Демьяненко</h3>
+                <p class="team-list-profession" lang="en">Product Designer</p>
             </li>
 
-            <li>
-                <img 
+            <li class="team-list-item">
+                <img class="team-list-img"
                     src="./images/members/member2.jpg" 
                     alt="на фото Ольга Репина" 
                     width="270" 
                     height="260" 
                 />
-                <h3>Ольга Репина</h3>
-                <p lang="en">Frontend Developer</p>
+                <h3 class="team-list-name">Ольга Репина</h3>
+                <p class="team-list-profession" lang="en">Frontend Developer</p>
             </li>
 
-            <li>
-                <img 
+            <li class="team-list-item">
+                <img class="team-list-img"
                     src="./images/members/member3.jpg" 
                     alt="на фото Николай Тарасов" 
                     width="270" 
                     height="260" 
                 />
-                <h3>Николай Тарасов</h3>
-                <p lang="en">Marketing</p>
+                <h3 class="team-list-name">Николай Тарасов</h3>
+                <p class="team-list-profession" lang="en">Marketing</p>
             </li>
 
-            <li>
-                <img 
+            <li class="team-list-item">
+                <img class="team-list-img"
                     src="./images/members/member4.jpg" 
                     alt="на фото Михаил Ермаков" 
                     width="270" 
                     height="260" 
                 />
-                <h3>Михаил Ермаков</h3>
-                <p lang="en">UI Designer</p>
+                <h3 class="team-list-name">Михаил Ермаков</h3>
+                <p class="team-list-profession" lang="en">UI Designer</p>
             </li>
             
         </ul>
@@ -148,27 +156,27 @@
 
 </main>
 
-<footer>
-    <a href="https://annabukina.github.io/goit-markup-hw-01/">
-        <span style="color:blue">Web</span>Studio
+<footer class="page-footer">
+    <a class="logo logo-theme-dark link" href="https://annabukina.github.io/goit-markup-hw-01/">
+        <span class="logo-text-left">Web</span>Studio
     </a>
 
     <address>
-        <ul>
-            <li>
-                <a 
+        <ul class="address-list list">
+            <li class="address-list-item" >
+                <a class="postal-address-link link" 
                     href=" " 
                     target="_blank" 
                     rel="noopener noreferrer"
                     >г. Киев, пр-т Леси Украинки, 26</a>
             </li>
 
-            <li>
-                <a href="mailto:info@example.com">info@example.com</a>
+            <li class="address-list-item" >
+                <a class="footer-mail link" href="mailto:info@example.com">info@example.com</a>
             </li>
 
-            <li>
-                <a href="tel:+380991111111">+38 099 111 11 11</a>
+            <li class="address-list-item">
+                <a class="footer-tel link" href="tel:+380991111111">+38 099 111 11 11</a>
             </li>
         </ul>
     </address>
@@ -178,3 +186,5 @@
 </body>
 
 </html>
+
+
