@@ -164,3 +164,38 @@ letter-spacing: 0.03em;
 }
 
 /* ----------------- /Футер --------------- */
+
+/* ----------------- Портфолио --------------- */
+
+.filter-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+    background-color: #F5F4FA;
+    cursor: pointer;
+}
+
+.filter-button:hover {
+background-color: var(--accent-color);
+
+}
+
+.examples-list-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-color);
+}
+
+.examples-list-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* ----------------- /Портфолио --------------- */
